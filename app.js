@@ -11,7 +11,7 @@ app.get('/',(req,res)=>{
 })
 app.post('/callback',(req,res)=>{
     console.log(3)
-    console.log(req)
+    console.log(req.body)
     res.send('3')
 
 })
